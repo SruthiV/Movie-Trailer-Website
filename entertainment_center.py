@@ -1,17 +1,28 @@
 import fresh_tomatoes
 import media
 
-toy_story = media.Movie("Toy Story", "A story of a boy and his toys that come to life","https://upload.wikimedia.org/wikipedia/en/2/22/Titanic_poster.jpg", "https://www.youtube.com/watch?v=KYz2wyBy3kc")
+# Contains movie data and executes the function to build the HTML file.
 
-#print(toy_story.storyline)
+spotlight = media.Movie(
+    "Spotlight",
+    "A true crime drama about an investigation into a church scandal.",
+    "https://goo.gl/3K2K4W",
+    "https://www.youtube.com/watch?v=EwdCIpbTN5g")
 
-titanic = media.Movie("Titanic", "Fictionalized account of the sinking of the RMS Titanic.", "https://en.wikipedia.org/wiki/Titanic_(1997_film)#/media/File:Titanic_poster.jpg", "https://www.youtube.com/watch?v=zCy5WQ9S4c0")
+titanic = media.Movie(
+    "Titanic",
+    "Fictionalized account of the sinking of the RMS Titanic.",
+    "https://goo.gl/laexwR",
+    "https://www.youtube.com/watch?v=zCy5WQ9S4c0")
 
-#print (titanic.storyline)
-#titanic.show_trailer()
+the_martian = media.Movie(
+    "The Martian",
+    "A science fiction film about an astronaut stranded on Mars.",
+    "https://goo.gl/TQsKNK",
+    "https://www.youtube.com/watch?v=ej3ioOneTy8")
 
-movies = [toy_story, titanic]
-#fresh_tomatoes.open_movies_page(movies)
+movies = [spotlight, titanic, the_martian]
 
-#print(media.Movie.VALID_RATINGS)
-print(media.Movie.__doc__)
+# Function to build the HTML file
+
+fresh_tomatoes.open_movies_page(movies)
