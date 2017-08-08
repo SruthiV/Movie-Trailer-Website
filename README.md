@@ -1,6 +1,6 @@
 # Movie Trailer Website
 Source code for a statically generated Movie Trailer website. This is the first project of the Full Stack Web Developer Nanodegree course, made by Sruthi Vinukonda. 
-Only tested on Chrome.
+*Only tested on Chrome.*
 # Notes
 Made some changes to the original fresh_tomatoes.py file.
 # Getting started
