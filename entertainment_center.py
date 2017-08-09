@@ -39,7 +39,8 @@ the_jungle_book = media.Movie(
     "https://goo.gl/TkGdnT",
     "https://www.youtube.com/watch?v=LNVTKXIK7q8")
 
-movies = [spotlight, titanic, the_martian, jurassic_park, lion_king, the_jungle_book]
+movies = [spotlight, titanic, the_martian, jurassic_park,
+          lion_king, the_jungle_book]
 
 # Function to build the HTML file
 
